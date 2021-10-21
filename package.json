@@ -1,0 +1,28 @@
+{
+  "name": "@subql/polkadot-cached-provider",
+  "version": "0.1.0",
+  "description": "extend @polkadot/rpc-provider with cache",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -b tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian He",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@polkadot/rpc-provider": "^6.4.2",
+    "lodash": "^4.17.21",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.10",
+    "@polkadot/api": "^6.4.2",
+    "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.176",
+    "@types/node-cache": "^4.2.5",
+    "babel-jest": "^27.0.5",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
